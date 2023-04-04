@@ -37,8 +37,8 @@ Before getting started, you will need:
   - `PASSWORD`: A password to protect access to your bot's functionality.
   - `HABITICA_USER_ID`: Your Habitica User ID (found in Settings > API on the Habitica website).
   - `HABITICA_API_KEY`: Your Habitica API Key (found in Settings > API on the Habitica website).
-  - `TELEGRAM_ADMIN_IDS`: An array of Telegram user IDs who have permission to use the bot.
-  - 'SPREADSHEET_NAME': An empty spreadsheet to use, preferly let this stay as it will create new spreadsheet if one named this doesn't exist.
+  - `WEB_APP_URL`: After deploying the prroject, enter Web App Url here.
+  - `SPREADSHEET_NAME`: An empty spreadsheet to use, preferly let this stay as it will create new spreadsheet if one named this doesn't exist.
 - Save the project.
 
 ## Deploying the Project
