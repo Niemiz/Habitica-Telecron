@@ -21,24 +21,22 @@ Before getting started, you will need:
 - Follow the instructions provided by BotFather to set a name and username for your bot.
 - Upon successful creation, BotFather will provide you with a bot token. Save this token, as you will need it later.
 
-## Adding the Code to Google Apps Scripts
-
-- Go to [Google Apps Script](https://script.google.com/) and sign in with your Google account.
-- Click on "New Project" to create a new script project.
-- Give your project a name, such as "Habitica Telecron".
-- Replace the contents of the default `Code.gs` file with the code from the Habitica Telecron repository.
-- Save the project.
+## Adding code to Google App Scripts!
+- Go to [THE SCRIPT](https://script.google.com/d/12OlG4MF9Zq8j2i3A4EGN6-CZQb_VACNHuPsakZv2EXW8nbmLFSNeH1Lc/edit?usp=sharing) and sign in with your Google account.
+- Click on the (i) icon in the top-left to go Project Details.
+- In Project Details click on the "Make a copy", a paper icon in the top-right next to the star.
+- New window should open and you may rename the script by clicking on "Copy of Habitica Telecron v.x.x"
+- You now have all the script ready to be configurated.
 
 ## Configuring the Script
 
-- In the `Code.gs` file, locate the constants section at the top.
+- In the `install.gs` file, locate the constants section at the top.
 - Replace the placeholder values with the appropriate information:
   - `TELEGRAM_BOT_TOKEN`: Paste the bot token you received from BotFather.
   - `PASSWORD`: A password to protect access to your bot's functionality.
   - `HABITICA_USER_ID`: Your Habitica User ID (found in Settings > API on the Habitica website).
   - `HABITICA_API_KEY`: Your Habitica API Key (found in Settings > API on the Habitica website).
   - `WEB_APP_URL`: After deploying the prroject, enter Web App Url here.
-  - `SPREADSHEET_NAME`: An empty spreadsheet to use, preferly let this stay as it will create new spreadsheet if one named this doesn't exist.
 - Save the project.
 
 ## Deploying the Project
@@ -49,14 +47,14 @@ Before getting started, you will need:
 
 ## Installing the Bot
 
-- In the `Code.gs` file, locate the `WEB_APP_URL` constant and replace the placeholder value with the Web App URL you received during deployment.
+- In the `install.gs` file, locate the `WEB_APP_URL` constant and replace the placeholder value with the Web App URL you received during deployment.
 - Save the project.
 - Run the `install` function in the script editor by selecting the function from the dropdown menu and clicking the play button.
 
 ## Using the Bot
 
 - Start a chat with your newly created Telegram bot on Telegram.
-- The bot will ask for the password you set in the `Code.gs` file. Enter the password to gain access.
+- The bot will ask for the password you set in the `install.gs` file. Enter the password to gain access.
 - Once authenticated, the bot will provide you with a list of available functions and instructions on how to use them.
 
 You have now successfully set up Habitica Telecron.
